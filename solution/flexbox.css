@@ -1,0 +1,51 @@
+@media (min-width: 760px) {
+  /*
+  Tablets
+  */
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header h1 {
+    line-height: 1.5em;
+    margin-left: 16px;
+  }
+
+  header ul {
+    display: flex;
+    margin-right: 1em;
+  }
+
+  header ul li {
+    margin: 0 0 0 1em;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .primary {
+    flex-basis: 20%;
+    order: -1;
+  }
+
+  section {
+    flex-basis: 60%;
+  }
+
+  .secondary {
+    padding-left: 20%;
+  }
+}
+
+@media (min-width: 1025px) {
+  /*
+  Desktop
+  */
+  .secondary {
+    padding: 0;
+    flex-basis: 20%;
+  }
+}
